@@ -1,0 +1,111 @@
+
+/* Faixa vermelha translúcida no centro */
+.overlay {
+  background-color: rgba(150, 0, 0, 0.6);
+  top: 0;
+  width: 100%;
+  padding: 30px 0px;
+  border-radius: 10px;
+  text-align: center;
+  backdrop-filter: blur(2px);
+}
+
+h1 {
+  color: #fff;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Descrição */
+.descricao {
+  text-align: center;
+  max-width: 700px;
+  margin: 30px auto;
+  font-size: 18px;
+  line-height: 1.6;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+/* Link do Drive */
+.link-drive {
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  color: #ff0000;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.link-drive:hover {
+  text-decoration: underline;
+  color: #ff5555;
+}/* garantir que html e body ocupem 100% da altura */
+html, body {
+
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* fundo cobrindo toda a tela - caminho relativo ao arquivo CSS ou HTML */
+body {
+  /* Se a imagem estiver na mesma pasta do index.html/style.css */
+  background: url('imagens/evancult.png') no-repeat center center fixed;
+  
+  /* Se você colocou em assets/images, use:
+     background: url('assets/images/american_horror_story.webp') no-repeat center center fixed;
+  */
+
+  background-size: cover;           /* faz a imagem cobrir a tela inteira */
+  background-position: center;      /* centraliza a imagem */
+  background-attachment: fixed;     /* fixa a imagem ao scroll (efeito parallax simples) */
+  font-family: 'American Horror Story', sans-serif;
+  color: white;
+
+  /* layout centralizado verticalmente (opcional, mantém seu overlay central) */
+  display: flex;
+  flex-direction: column;
+  
+                /* garante cobrir telas menores também */
+}
+.trailer-temporada {
+  display: flex;              /* coloca lado a lado */
+  justify-content: center;    /* centraliza horizontalmente o conjunto */
+  align-items: flex-start;    /* alinha pelo topo */
+  gap: 30px;                  /* espaço entre select e sinopse */
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* área do select */
+.select {
+  width: 30%;                 /* define largura do select */
+  display: flex;
+  justify-content: flex-end;  /* empurra o select pro fim da área (encosta no meio) */
+}
+
+.select select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+/* área da sinopse */
+.info-temporada {
+  width: 60%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px 25px;
+  border-radius: 10px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: white;
+}
