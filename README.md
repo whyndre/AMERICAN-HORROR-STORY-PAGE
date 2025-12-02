@@ -7,4 +7,4 @@ Apolo Vitor Martins
 Site simples desenvolvido em HTML, CSS e JavaScript para o trabalho final.
 
 ## Link do site publicado (GitHub Pages)
-👉 https://whyndre.github.io
+👉 https://whyndre.github.io/AMERICAN-HORROR-STORY-PAGE
