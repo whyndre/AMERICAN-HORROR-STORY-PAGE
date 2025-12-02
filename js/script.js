@@ -1,23 +1,23 @@
 const temporadas = {
   "Temporada 1": {
     sinopse: "A primeira temporada acompanha a família Harmon, que se muda para uma casa assombrada por espíritos vingativos e segredos terríveis.",
-    imagem: "../img/evan.png"
+    imagem: "img/evan.png"
   },
   "Temporada 2": {
     sinopse: "Situada no Briarcliff Asylum, a segunda temporada envolve possessão, experimentos nazistas, serial killers e horrores psicológicos.",
-    imagem: "../img/asylum.png"
+    imagem: "img/asylum.png"
   },
   "Temporada 3": {
     sinopse: "Centrada em um clã de bruxas em Nova Orleans, esta temporada explora poder, rivalidade e magia ancestral.",
-    imagem: "../img/coven.png"
+    imagem: "img/coven.png"
   },
   "Temporada 4": {
     sinopse: "Sinopse da temporada 4 aqui...",
-    imagem: "../img/freakshow.png"
+    imagem: "img/freakshow.png"
   },
   "Temporada 5": {
     sinopse: "Sinopse da temporada 5 aqui...",
-    imagem: "../img/hotel.png"
+    imagem: "img/hotel.png"
   }
 }; // <-- AQUI FECHA O OBJETO !!!
 
@@ -34,6 +34,7 @@ select.addEventListener("change", () => {
       <img src="${temp.imagem}" alt="${escolhida}" style="width: 100%; margin-top: 15px; border-radius: 10px;">
   `;
 });
+
 
 
 
