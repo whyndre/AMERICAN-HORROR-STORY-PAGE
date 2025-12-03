@@ -1,4 +1,3 @@
-
 /* Faixa vermelha translúcida no centro */
 .overlay {
   background-color: rgba(150, 0, 0, 0.6);
@@ -55,7 +54,7 @@ html, body {
 /* fundo cobrindo toda a tela - caminho relativo ao arquivo CSS ou HTML */
 body {
   /* Se a imagem estiver na mesma pasta do index.html/style.css */
-  background: url('../img/evancult.png') no-repeat center center fixed;
+  background: url('imagens/evancult.png') no-repeat center center fixed;
   
   /* Se você colocou em assets/images, use:
      background: url('assets/images/american_horror_story.webp') no-repeat center center fixed;
@@ -109,4 +108,5 @@ body {
   font-size: 18px;
   color: white;
 }
+
 
